@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+build/
+.svelte-kit/
+dist/
+
+# Tauri
+src-tauri/target/
+
+# Database
+*.db
+*.db-shm
+*.db-wal
+
+# Attachments (user data)
+attachments/
+
+# Generated
+src-tauri/gen/
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.*
+!.env.example
